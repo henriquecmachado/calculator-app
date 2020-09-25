@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator APP </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="buttons.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body class="background-body">
+    <div class="title">
+        <h1>The Simple Calculator APP</h1>
+    </div>
+    <div class="user-input">
+        <input type="text" id="user-input" placeholder="Input a Number">
+    </div>
+    <div class="operation-buttons">
+        <button id="plus-button">+</button>
+        <button id="subtract-button">-</button>
+        <button id="multiply-button">*</button>
+        <button id="divide-button">/</button>
+    </div>
+    <div class="results">
+    <h3 id="default-result">0</h3>
+    <h3 class="current-result">Result: <span id="current-result">0</span></h3>
+    </div>
+    <script src="buttons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
